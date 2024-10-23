@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    font-family: 'Arial';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.blink {
+    color: #171705; /* Change to desired color */
+}
+
+.it {
+    color: #3fb56a; /* Change to desired color */
+}
