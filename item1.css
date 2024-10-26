@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .related-items {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .items-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item img {
+    background-image: url(vegetables.jpg);
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .item button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .item button:hover {
+    background-color: #0056b3;
+  }
+  
